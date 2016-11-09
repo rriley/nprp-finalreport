@@ -1,6 +1,6 @@
 %-----------------------------------------------------------------------------
 %
-%               Template for LaTeX File For NPRP
+%               Template for LaTeX File For NPRP Final Report
 %
 % Name:         nprp.tex
 % Purpose:      To write an nprp proposal in latex
@@ -22,6 +22,9 @@
 %	For NPRP 8th Cycle
 %		Ryan Riley (ryan dot riley at qu dot edu dot qa)
 %		September 2014
+%   Adapted for NPRP Final Report
+% 		Ryan Riley  (ryan dot riley at qu dot edu dot qa)
+%		May 2016
 %-----------------------------------------------------------------------------
 
 
@@ -63,7 +66,7 @@
 \addtolength{\headheight}{0.125in}
 \setlength{\headsep}{0.125in}
 \fancyfoot[C]{}
-\lfoot{\textbf{{\fontsize{10}{1em}\selectfont QNRF Form \color{red} RP (Revised July 2014)}}}
+\lfoot{\textbf{{\fontsize{10}{1em}\selectfont QNRF Final Report}}}
 \rfoot{\textbf{{\fontsize{10}{1em}\selectfont Page {\thepage}} \hspace{1.2cm}}}
 \rhead{\makebox[2.5in][l]{{\fontsize{10}{1em}\selectfont NPRP No. : }}}
 \lhead{}
@@ -110,6 +113,7 @@ NATIONAL PRIORITY RESEARCH PROGRAM
 
 \fontsize{40}{48}
 \selectfont
+QNRF Final Report:\\
 Proposal Title
 \vspace{0.4cm}
 {\color{blue2}\hrule}
@@ -122,41 +126,89 @@ NPRP No.:
 \end{titlepage}
 
 \rfoot{}
-\renewcommand\contentsname{Table of Content}
-\tableofcontents
+
+\newpage
+\section*{Disclaimer}
+This Project outcomes report for the general public is displayed verbatim as submitted by the Principal Investigator(s) (PI’s) for this award. Any opinions, findings and conclusions or recommendations expressed in this report are those of the PI and do not necessarily reflect the views of the Qatar National Research Fund; QNRF has not approved or endorsed its content
+
+\newpage
+\section*{Acknowledgements}
+This paper was made possible by NPRP grant ??? from the Qatar National Research Fund (a
+member of Qatar Foundation). The statements made herein are solely the responsibility of the authors.
 
 \newpage
 \setcounter{page}{1}
 \rfoot{\textbf{\small{Page {\thepage}} \hspace{1.2cm}}}
+\renewcommand\contentsname{Table of Contents}
+\tableofcontents
 
-\noindent {\fontsize{14}{1em} \selectfont \textbf{Proposal Summary}}
-(This section should be copied from the "Proposal Summary" submitted in the LoI)
+\newpage
+\listoftables
 
-\bigskip
-\noindent {\fontsize{14}{1em}\selectfont \textbf{Research Plan}}
-(Items 1-7 not to exceed 30 pages)
+\newpage
+\listoffigures
 
+\newpage
+\section*{List of Acronyms}
 
-\section{Background / literature survey}
+\newpage
+\section*{Executive Summary}
+\textit{This section should provide a synopsis of what the project entails and what significant results it achieved. The executive summary should not exceed 2-3 paragraphs.}
 
-\section{Objectives / significance}
+\newpage
+\section{Introduction}
+\textit{Introduce the subject of the research to the reader in such a way that it can be reasonably understood by both experts in the field as well as the novices. Include the value of the results (application) obtained.}
 
-\section{Preliminary data or studies}
+\subsection{Background of Project}
+\textit{Define the problem that the research has addressed, and provide a statement describing the impetus for the research, including if it is a continuation of a previous project. }
 
-\section{Research design and methods}
+\subsection{Objectives of this Study}
+\textit{Itemize the objectives of the research. }
 
-\section{Anticipated results and evaluation criteria}
+\subsection{Project Tasks/Aims}
+\textit{Itemize the Aims/Tasks and any sub task(s) that the research have completed.}
 
-\section{Plans for disseminating research results}
+\newpage
+\section{Literature Review}
+\textit{Provide a critical review of the previous and relevant publications to the research, ensuring all of these publications are properly cited in the bibliography section of the report.}
 
-\section{Future Plans}
+\newpage
+\section{Methodology}
+\textit{State the approach taken by the research Team to solve the problem(s) as described in the Introduction section. Where applicable, describe the experimental design and procedures, design of surveys, and any simulation conducted.}
+
+\newpage
+\section{Discussion of Results}
+\textit{This section is considered as the main part of the report where the justification of the research, presentation of data, analyses, findings, problems encountered, obstacles overcome, and resolution of challenges should be detailed.  }
+
+\newpage
+\section{Potential Beneficiaries}
+\textit{Identify who can be the beneficiary of the results of the research and explain how they have benefited, or will benefit, from the activities and findings of the project.}
+
+\newpage
+\section{Recommendations}
+\textit{Provide an itemized listing of recommendations that this research can offer for future work on the subject. For projects which deal with application of technology, or utilization of standard techniques within the scientific, social, and humanity communities,  comment on challenges regarding methodologies, analyses, best practices, lessons learned, and application of techniques.}
+
+\newpage
+\section{Conclusions}
+\textit{Itemize brief and concise list of conclusive statements drawn from the results of the research. These must not be in paragraph form. }
+
+\newpage
+\nocite{Nobody06}
+\bibliography{nprp}
+\bibliographystyle{plain}
+
+\newpage
+\section{Nomenclatures}
+\textit{This is an alphabetical list of technical terms, and symbols used in the report text and in equations where applicable.}
+
+\newpage
+\section{Appendices}
+\textit{All supplementary and extraneous materials but yet relevant should be collected and appended at the end of the report (publications resulting from the research can be placed in an appendix). This information should be separated and placed in a different appendix if they relate to various aspects of the research.}
 
 
 \newpage
 
-\nocite{Nobody06}
-\bibliography{nprp}
-\bibliographystyle{plain}
+
 
 \end{document}
 
